@@ -3,10 +3,18 @@
   padding: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 header {
   padding: 0px 400px;
   background-color: #1f2937;
   color: white;
+}
+
+p {
+  line-height: 20px;
 }
 
 .nav-bar {
@@ -26,6 +34,15 @@ li {
   font-size: 18px;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3882f6;
+}
+
 /* nav bar end */
 
 .hero-div {
@@ -38,7 +55,7 @@ li {
 .right-div {
   display: flex;
   flex: 1;
-  gap: 30px;
+  gap: 20px;
   flex-direction: column;
   justify-content: center;
 }
@@ -57,6 +74,30 @@ button {
   align-self: flex-start;
 }
 
-.guts-hero {
-  max-width: 100%;
+.char-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  gap: 30px;
+}
+
+.viewed-imgs {
+  display: flex;
+  gap: 40px;
+}
+
+.char-img {
+  width: 200px;
+  height: 200px;
+}
+
+.char-img img {
+  border-radius: 5%;
+  border: solid;
+  border-color: #1f2937;
+}
+
+.char-img p {
+  text-align: center;
 }
