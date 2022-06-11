@@ -40,7 +40,7 @@ a {
 }
 
 a:hover {
-  color: #3882f6;
+  color: olive;
 }
 
 /* nav bar end */
@@ -72,6 +72,10 @@ button {
   background-color: #3882f6;
   border: none;
   align-self: flex-start;
+}
+
+button:hover {
+  background: olive;
 }
 
 .char-panel {
@@ -135,10 +139,36 @@ button {
 }
 
 .cta-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
   background-color: #3882f6;
+  color: white;
   border-radius: 10px;
   width: 1200px;
   height: 150px;
+}
+
+.cta-left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cta-left p {
+  font-size: 18px;
+}
+
+.cta-button {
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  padding: 10px 35px;
+}
+
+.cta-button p {
+  font-size: 18px;
 }
 
 footer {
