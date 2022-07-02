@@ -6,7 +6,7 @@ https://www.theodinproject.com/lessons/foundations-landing-page
 
 Current identified changes needed:
 
-* CSS dimesnions from pixels to rem/% etc
+* CSS dimesnions from pixels to rem/% etc.
 
 * Alt attributes need clarity
 
