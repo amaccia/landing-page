@@ -2,7 +2,7 @@
 
 Landing page project from The Odin Project.
 
-Changes needed:
+Current identified changes needed:
 
 CSS dimesnions from pixels to rem/% etc
 
