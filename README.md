@@ -1,6 +1,6 @@
 # landing-page
 
-Landing page project from The Odin Project.
+The Odin Project landing page task.
 
 https://www.theodinproject.com/lessons/foundations-landing-page
 
